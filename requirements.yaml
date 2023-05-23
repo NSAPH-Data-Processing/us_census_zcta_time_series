@@ -1,0 +1,5 @@
+name: mbsf_analytic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
