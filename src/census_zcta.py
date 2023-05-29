@@ -5,13 +5,11 @@ import pprint
 from census import Census
 from us import states
 import numpy as np
+import os
 
 def get_census_zcta(var_name, var_entry, year):
 
-    key = '0fec0de3c4e525041f1101feb0c3a41be9b4a007'
-
-    c = Census(key)
-    print(var_name)
+    c = Census(args.api_key)
     if 'den' in var_entry:
         den_list = var_entry['den']
         num_list = var_entry['num']
@@ -74,5 +72,6 @@ if __name__ == '__main__':
     parser.add_argument(
         '--output_prefix', type=str, help='Output file name prefix', 
         default='../data/intermediate/scratch/census')
+    parser.add_argument('--api_key', type=str, default=os.environ['API_KEY'])
     args = parser.parse_args()
     main(args)
