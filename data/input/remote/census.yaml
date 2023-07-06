@@ -1,2 +1,311 @@
-acs:
-  
+# Variables in the output data set:
+# - `pct_blk`: % of the population listed as black 
+# - `medhouseholdincome`: median household income 
+# - `pct_owner_occ`: % of housing units occupied by their owner
+# - `hispanic`: % of the population identified as Hispanic, regardless of reported race 
+# - `education`: % of the population older than 65 not graduating from high school 
+
+
+pct_blk:
+  2011:
+      prefix: ACS11_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+  2012:
+      prefix: ACS12_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+  2013:
+      prefix: ACS13_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+  2014:
+      prefix: ACS14_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+  2015:
+      prefix: ACS15_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+  2016:
+      prefix: ACS16_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+
+  2017:
+      prefix: ACS17_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+
+  2018:
+      prefix: ACS18_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+
+medhouseholdincome:
+  2011:
+      prefix: ACS11_5yr_
+      num:
+      - B19013_001E
+  2012:
+      prefix: ACS12_5yr_
+      num:
+      - B19013_001E
+  2013:
+      prefix: ACS13_5yr_
+      num:
+      - B19013_001E
+  2014:
+      prefix: ACS14_5yr_
+      num:
+      - B19013_001E
+  2015:
+      prefix: ACS15_5yr_
+      num:
+      - B19013_001E
+  2016:
+      prefix: ACS16_5yr_
+      num:
+      - B19013_001E
+
+  2017:
+      prefix: ACS17_5yr_
+      num:
+      - B19013_001E
+
+  2018:
+      prefix: ACS18_5yr_
+      num:
+      - B19013_001E
+
+pct_owner_occ:
+  2011:
+      prefix: ACS11_5yr_
+      num:
+      - B11012_004E
+      - B11012_008E
+      - B11012_011E
+      - B11012_014E
+      den:
+      - B11012_001E
+  2012:
+      prefix: ACS12_5yr_
+      num:
+      - B11012_004E
+      - B11012_008E
+      - B11012_011E
+      - B11012_014E
+      den:
+      - B11012_001E
+  2013:
+      prefix: ACS13_5yr_
+      num:
+      - B11012_004E
+      - B11012_008E
+      - B11012_011E
+      - B11012_014E
+      den:
+      - B11012_001E
+  2014:
+      prefix: ACS14_5yr_
+      num:
+      - B11012_004E
+      - B11012_008E
+      - B11012_011E
+      - B11012_014E
+      den:
+      - B11012_001E
+  2015:
+      prefix: ACS15_5yr_
+      num:
+      - B25011_002E
+      den:
+      - B25011_001E
+  2016:
+      prefix: ACS16_5yr_
+      num:
+      - B25011_002E
+      den:
+      - B25011_001E
+
+  2017:
+      prefix: ACS17_5yr_
+      num:
+      - B25011_002E
+      den:
+      - B25011_001E
+
+  2018:
+      prefix: ACS18_5yr_
+      num:
+      - B25011_002E
+      den:
+      - B25011_001E
+
+hispanic:
+  2011:
+      prefix: ACS11_5yr_
+        
+      num:
+      - B03003_003E
+      den:
+      - B03003_001E
+  2012:
+      prefix: ACS12_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+  2013:
+      prefix: ACS13_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+  2014:
+      prefix: ACS14_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+  2015:
+      prefix: ACS15_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+  2016:
+      prefix: ACS16_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+
+  2017:
+      prefix: ACS17_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+
+  2018:
+      prefix: ACS18_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+
+education:
+  2011:
+      prefix: ACS11_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+  2012:
+      prefix: ACS12_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+  2013:
+      prefix: ACS13_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+  2014:
+      prefix: ACS14_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+  2015:
+      prefix: ACS15_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+  2016:
+      prefix: ACS16_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+
+  2017:
+      prefix: ACS17_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+
+  2018:
+      prefix: ACS18_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
