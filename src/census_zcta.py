@@ -72,6 +72,6 @@ if __name__ == '__main__':
     parser.add_argument(
         '--output_prefix', type=str, help='Output file name prefix', 
         default='../data/intermediate/scratch/census')
-    parser.add_argument('--api_key', type=str, default=os.environ['API_KEY'])
+    parser.add_argument('--api_key', type=str, default=os.environ['CENSUS_API_KEY'])
     args = parser.parse_args()
     main(args)
