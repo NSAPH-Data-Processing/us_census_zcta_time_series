@@ -71,7 +71,7 @@ if __name__ == '__main__':
         default='parquet')
     parser.add_argument(
         '--output_prefix', type=str, help='Output file name prefix', 
-        default='data/intermediate/scratch/census')
+        default='data/output/census_acs5/census')
     parser.add_argument('--api_key', type=str, default=os.environ['CENSUS_API_KEY'])
     args = parser.parse_args()
     main(args)
