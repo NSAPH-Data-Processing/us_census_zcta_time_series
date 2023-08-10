@@ -65,13 +65,13 @@ if __name__ == '__main__':
         default=2011)
     parser.add_argument(
         '--census_yaml', type=str, help='YAML file with census data', 
-        default='../data/input/remote/census.yaml')
+        default='data/input/remote/census.yaml')
     parser.add_argument(
         '--output_format', type=str, help='Output format', choices=['csv', 'parquet'],
         default='parquet')
     parser.add_argument(
         '--output_prefix', type=str, help='Output file name prefix', 
-        default='../data/intermediate/scratch/census')
+        default='data/intermediate/scratch/census')
     parser.add_argument('--api_key', type=str, default=os.environ['CENSUS_API_KEY'])
     args = parser.parse_args()
     main(args)
