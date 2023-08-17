@@ -65,7 +65,7 @@ if __name__ == '__main__':
         default=2011)
     parser.add_argument(
         '--census_yaml', type=str, help='YAML file with census data', 
-        default='../data/input/remote/census.yaml')
+        default='data/input/remote/census.yaml')
     parser.add_argument(
         '--output_format', type=str, help='Output format', choices=['csv', 'parquet'],
         default='parquet')
