@@ -9,7 +9,7 @@ import os
 
 def get_census_zcta(var_name, var_entry, year):
 
-    c = Census(args.api_key)
+    c = Census(args.api_key, year=year)
     if 'den' in var_entry:
         den_list = var_entry['den']
         num_list = var_entry['num']
