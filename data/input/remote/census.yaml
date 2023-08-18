@@ -50,19 +50,19 @@
 
 pct_blk:
 
-  2009:
-      prefix: ACS09_5yr_
-      num:
-      - B02001_003E
-      den:
-      - B02001_001E
+#   2009:
+#       prefix: ACS09_5yr_
+#       num:
+#       - B02001_003E
+#       den:
+#       - B02001_001E
 
-  2010:
-      prefix: ACS10_5yr_
-      num:
-      - B02001_003E
-      den:
-      - B02001_001E
+#   2010:
+#       prefix: ACS10_5yr_
+#       num:
+#       - B02001_003E
+#       den:
+#       - B02001_001E
 
   2011:
       prefix: ACS11_5yr_
@@ -110,21 +110,35 @@ pct_blk:
 
   2018:
       prefix: ACS18_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+
+  2019:
+      prefix: ACS19_5yr_
+      num:
+      - B02001_003E
+      den:
+      - B02001_001E
+
+  2020:
+      prefix: ACS20_5yr_
       num:
       - B02001_003E
       den:
       - B02001_001E
 
 medhouseholdincome:
-  2009:
-      prefix: ACS09_5yr_
-      num:
-      - B19013_001E
+#   2009:
+#       prefix: ACS09_5yr_
+#       num:
+#       - B19013_001E
 
-  2010:
-      prefix: ACS10_5yr_
-      num:
-      - B19013_001E
+#   2010:
+#       prefix: ACS10_5yr_
+#       num:
+#       - B19013_001E
 
   2011:
       prefix: ACS11_5yr_
@@ -158,30 +172,40 @@ medhouseholdincome:
 
   2018:
       prefix: ACS18_5yr_
+      num:
+      - B19013_001E
+
+  2019:
+      prefix: ACS19_5yr_
+      num:
+      - B19013_001E
+
+  2020:
+      prefix: ACS20_5yr_
       num:
       - B19013_001E
 
 pct_owner_occ:
 
-  2009:
-      prefix: ACS09_5yr_
-      num:
-      - B11012_004E
-      - B11012_008E
-      - B11012_011E
-      - B11012_014E
-      den:
-      - B11012_001E
+#   2009:
+#       prefix: ACS09_5yr_
+#       num:
+#       - B11012_004E
+#       - B11012_008E
+#       - B11012_011E
+#       - B11012_014E
+#       den:
+#       - B11012_001E
 
-  2010:
-      prefix: ACS10_5yr_
-      num:
-      - B11012_004E
-      - B11012_008E
-      - B11012_011E
-      - B11012_014E
-      den:
-      - B11012_001E
+#   2010:
+#       prefix: ACS10_5yr_
+#       num:
+#       - B11012_004E
+#       - B11012_008E
+#       - B11012_011E
+#       - B11012_014E
+#       den:
+#       - B11012_001E
 
   2011:
       prefix: ACS11_5yr_
@@ -241,6 +265,20 @@ pct_owner_occ:
 
   2018:
       prefix: ACS18_5yr_
+      num:
+      - B25011_002E
+      den:
+      - B25011_001E
+
+  2019:
+      prefix: ACS19_5yr_
+      num:
+      - B25011_002E
+      den:
+      - B25011_001E
+
+  2020:
+      prefix: ACS20_5yr_
       num:
       - B25011_002E
       den:
@@ -248,21 +286,21 @@ pct_owner_occ:
 
 hispanic:
 
-  2009:
-      prefix: ACS09_5yr_
+#   2009:
+#       prefix: ACS09_5yr_
         
-      num:
-      - B03003_003E
-      den:
-      - B03003_001E
+#       num:
+#       - B03003_003E
+#       den:
+#       - B03003_001E
 
-  2010:
-      prefix: ACS10_5yr_
+#   2010:
+#       prefix: ACS10_5yr_
         
-      num:
-      - B03003_003E
-      den:
-      - B03003_001E
+#       num:
+#       - B03003_003E
+#       den:
+#       - B03003_001E
 
   2011:
       prefix: ACS11_5yr_
@@ -317,6 +355,22 @@ hispanic:
 
   2018:
       prefix: ACS18_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+
+  2019:
+      prefix: ACS19_5yr_
+        
+      num:
+      -  B03003_003E
+      den:
+      -  B03003_001E
+
+  2020:
+      prefix: ACS20_5yr_
         
       num:
       -  B03003_003E
@@ -325,29 +379,29 @@ hispanic:
 
 education:
 
-  2009:
-      prefix: ACS09_5yr_
+#   2009:
+#       prefix: ACS09_5yr_
         
-      num:
-      - B15001_036E
-      - B15001_037E
-      - B15001_077E
-      - B15001_078E
-      den:
-      - B15001_035E
-      - B15001_076E
+#       num:
+#       - B15001_036E
+#       - B15001_037E
+#       - B15001_077E
+#       - B15001_078E
+#       den:
+#       - B15001_035E
+#       - B15001_076E
 
-  2010:
-      prefix: ACS10_5yr_
+#   2010:
+#       prefix: ACS10_5yr_
         
-      num:
-      - B15001_036E
-      - B15001_037E
-      - B15001_077E
-      - B15001_078E
-      den:
-      - B15001_035E
-      - B15001_076E
+#       num:
+#       - B15001_036E
+#       - B15001_037E
+#       - B15001_077E
+#       - B15001_078E
+#       den:
+#       - B15001_035E
+#       - B15001_076E
   2011:
       prefix: ACS11_5yr_
         
@@ -429,6 +483,30 @@ education:
 
   2018:
       prefix: ACS18_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+
+  2019:
+      prefix: ACS19_5yr_
+        
+      num:
+      - B15001_036E
+      - B15001_037E
+      - B15001_077E
+      - B15001_078E
+      den:
+      - B15001_035E
+      - B15001_076E
+
+  2020:
+      prefix: ACS20_5yr_
         
       num:
       - B15001_036E
