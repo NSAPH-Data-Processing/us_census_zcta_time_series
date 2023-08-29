@@ -11,7 +11,7 @@
 - [Run](#run)
 
 ## Introduction
-The project streamines the extraction and analysis of demographic data from the  American Community Survey 5-Year Data (ACS5). The project aims to provide a cleaned data for each year from 2009-2019 for the required variables.
+The project streamines the extraction and analysis of demographic data from the  American Community Survey 5-Year Data (ACS5). The project aims to provide cleaned data for each year from 2009-2019 for the required variables.
 
 ## Data Description 
 
