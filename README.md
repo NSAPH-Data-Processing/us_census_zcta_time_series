@@ -13,6 +13,15 @@
 ## Introduction
 The project streamines the extraction and analysis of demographic data from the  American Community Survey 5-Year Data (ACS5). The project aims to provide cleaned data for each year from 2009-2019 for the required variables.
 
+**Notes about American Community Survey 5-Year Data:**
+
+- The American Community Survey (ACS) is an ongoing survey that provides data every year -- giving communities the current information they need to plan investments and services. The ACS covers a broad range of topics about social, economic, demographic, and housing characteristics of the U.S. population.
+
+- ACS data is available from 2009 onwards; however, ZCTA (ZIP Code Tabulation Area) level information is available from 2011 onwards.
+
+- The ACS is an ongoing survey that collects responses every day of the year. The ACS estimates do not represent a specific point in time during the collection period, but rather a pooling of the data collected during the entire period. For 1-year estimates, the ACS uses data collected in that calendar year — January 1 through December 31. Similarly, the 5-year estimates use data collected over a 5-year period. For example, the 2016-2020 5-year estimates will use ACS data collected from January 1, 2016, through December 31, 2020. Read further about the period estimates [here.](https://www.census.gov/newsroom/blogs/random-samplings/2022/03/period-estimates-american-community-survey.html) 
+
+
 ## Data Description 
 
 - **Time Coverage** : 2009 - 2019
@@ -63,8 +72,6 @@ The repository contains:
 ## Processing Rules
 
 **Processing rules applied in census_zcta.py**
-
-The ACS is an ongoing survey that collects responses every day of the year. The ACS estimates do not represent a specific point in time during the collection period, but rather a pooling of the data collected during the entire period. For 1-year estimates, the ACS uses data collected in that calendar year — January 1 through December 31. Similarly, the 5-year estimates use data collected over a 5-year period. For example, the 2016-2020 5-year estimates will use ACS data collected from January 1, 2016, through December 31, 2020. Read further about the period estimates [here.](https://www.census.gov/newsroom/blogs/random-samplings/2022/03/period-estimates-american-community-survey.html) 
 
 To align with the aggregated nature of ACS estimates over 5-year periods, a specific processing rule is employed within the project. Each dataset generated from ACS data is internally tagged to a year that is 2 years prior. This tagging ensures that the data extracted in a given year corresponds to the ACS data collected 2 years later, providing consistency with the 5-year estimates.
 
