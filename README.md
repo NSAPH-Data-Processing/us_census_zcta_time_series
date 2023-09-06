@@ -31,13 +31,13 @@ The project streamines the extraction and analysis of demographic data from the 
 
 ## Codebook
 
-| Variable Name | Description |
-|---|---|
-| pct_blk  | % of the population listed as black  |
-| medhouseholdincome | median household income |
-| pct_owner_occ | % of housing units occupied by their owner  |
-| hispanic| % of the population identified as Hispanic, regardless of reported race  |
-| education | % of the population older than 65 not graduating from high school  |
+| Variable Name | Description | Derivation |
+|---|---| --- |
+| pct_blk  | % of the population listed as black  | ```B02001_003E/B02001_001E``` <br> B02001_003E: Estimate!!Total!!Black or African American alone <br> B02001_001E: Estimate!!Total - Race |
+| medhouseholdincome | median household income | `B19013_001E`  <br> B19013_001E: : Median Household Income In The Past 12 Months In 2011 Inflation-Adjusted Dollars |
+| pct_owner_occ | % of housing units occupied by their owner  | `For Years 2009 - 2014: (B11012_004E + B11012_008E + B11012_011E + B11012_014E)/ B11012_001E` <br> B11012_004E: Estimate!!Total!!Family households!!Married-couple family!!Owner-occupied housing units <br> B11012_008E: Estimate!!Total!!Family households!!Other family!!Male householder, no wife present!!Owner-occupied housing units <br> B11012_011E: Estimate!!Total!!Family households!!Other family!!Female householder, no husband present!!Owner-occupied housing units B11012_014E: Estimate!!Total!!Nonfamily households!!Owner-occupied housing units <br> B11012_001E: Estimate!!Total - HOUSEHOLD TYPE BY TENURE <br> `For Years 2015 - 2018: B25011_002E/B25011_001E` <br> B25011_002E: Estimate!!Total!!Owner occupied <br> B25011_001E: Estimate!!Total: TENURE BY HOUSEHOLD TYPE (INCLUDING LIVING ALONE) AND AGE OF HOUSEHOLDER|
+| hispanic| % of the population identified as Hispanic, regardless of reported race  | `B03003_003E/B03003_001E` <br> B03003_003E: Estimate!!Total!!Hispanic or Latino <br> B03003_001E: Estimate!!Total |
+| education | % of the population older than 65 not graduating from high school  | `(B15001_036E+B15001_037E+B15001_077E+B15001_078E)/(B15001_035E+B15001_076E)` <br> B15001_036E: Estimate!!Total!!Male!!65 years and over!!Less than 9th grade <br>  B15001_037E: Estimate!!Total!!Male!!65 years and over!!9th to 12th grade, no diploma <br> B15001_077E: Estimate!!Total!!Female!!65 years and over!!Less than 9th grade <br> B15001_078E: Estimate!!Total!!Female!!65 years and over!!9th to 12th grade, no diploma <br> B15001_035E: Estimate!!Total!!Male!!65 years and over <br> B15001_076E: Estimate!!Total!!Female!!65 years and over |
 
 
 ## Data Quality 
