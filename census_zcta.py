@@ -48,8 +48,8 @@ def main(args):
     df.reset_index(inplace=True)
 
     # write ouput ----
-
-    output_file = f"{args.output_prefix}_{args.year}"
+    middle_year = args.year - 2 # middle year of 5-year ACS
+    output_file = f"{args.output_prefix}_{middle_year}"
     if args.output_format == 'csv':
         output_file = output_file + '.csv'
         df.to_csv(output_file, index=False)
