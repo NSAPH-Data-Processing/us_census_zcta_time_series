@@ -49,7 +49,7 @@ def main(args):
 
     # write ouput ----
 
-    output_file = f"{args.output_prefix}_{args.year}"
+    output_file = f"{args.output_prefix}_{args.year-2}"
     if args.output_format == 'csv':
         output_file = output_file + '.csv'
         df.to_csv(output_file, index=False)
@@ -74,4 +74,6 @@ if __name__ == '__main__':
         default='data/output/census_acs5/census')
     parser.add_argument('--api_key', type=str, default=os.environ['CENSUS_API_KEY'])
     args = parser.parse_args()
+    args.year = args.year+2
+    #print(args)
     main(args)
