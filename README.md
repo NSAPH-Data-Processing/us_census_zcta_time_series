@@ -126,7 +126,7 @@ The README.md files inside the `/data` subfolders contain path documentation for
 Run the script for all years:
 
 ```bash
-python ./src/<main_script>.py --year <year>
+python ./<main_script>.py --year <year>
 ```
 
 or run the pipeline:
