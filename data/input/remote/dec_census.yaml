@@ -1,0 +1,11 @@
+
+#https://api.census.gov/data/2010/dec/sf1/variables.html
+#https://api.census.gov/data/2010/dec/sf1/variables.html
+#ben: https://github.com/NSAPH/National-Causal-Analysis/blob/master/Confounders/census/raw_data/raw_census/hispanic/census/zcta/2000/R11910217.txt
+hispanic:
+
+  2010: 
+    num:
+    - P005010
+    den:
+    - P005001
